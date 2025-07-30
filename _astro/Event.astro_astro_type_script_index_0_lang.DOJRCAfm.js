@@ -1,0 +1,1 @@
+import"./gsap.BHYimGvR.js";import{g as r}from"./index.D3jsOSc0.js";const i=document.querySelectorAll(".question-card");let t;const n=()=>{t=r.timeline({scrollTrigger:{trigger:"#event",endTrigger:"#questions",start:"top bottom",end:"bottom bottom",scrub:!0}}),i.forEach((o,e)=>{t.from(o,{yPercent:100*e},"<")})};window.innerWidth>1024&&n();

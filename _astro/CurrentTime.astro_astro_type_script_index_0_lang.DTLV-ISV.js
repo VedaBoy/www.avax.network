@@ -1,0 +1,1 @@
+import{s as t}from"./animation.EnLso5Qk.js";import{c,b as a}from"./utils.CdJYMqT6.js";import"./gsap.BHYimGvR.js";import"./index.D3jsOSc0.js";import"./SplitText.Cpc1cBKW.js";const e=document.getElementById("current-time"),n=document.getElementById("current-day"),r=()=>{const m=c(new Date),o=a(new Date);e.textContent=m,n.textContent=o};r();t(e,2);t(n,2);setInterval(()=>{r()},4e3);
